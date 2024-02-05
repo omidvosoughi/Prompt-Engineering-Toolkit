@@ -39,8 +39,8 @@ Um die Anwendung zu starten und auszuführen, folgen Sie diesen Schritten:
 ### 1. Klonen Sie das Repository.
 
 ```bash
-git clone https://github.com/omidvosoughi/dicom-uploader.git
-cd dicom-uploader
+git clone [https://github.com/omidvosoughi/dicom-uploader.git](https://github.com/omidvosoughi/Prompt-Engineering-Toolkit.git)
+cd Prompt-Engineering-Toolkit
 ```
 
 ### 2. Mit Docker Compose bauen und ausführen

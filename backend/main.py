@@ -7,8 +7,6 @@ import json
 import requests
 
 
-# openai.api_key = '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'
-
 app = FastAPI()
 
 # CORS setup to allow requests from our Vue.js frontend
@@ -32,7 +30,7 @@ async def generate(prompt: str = Form(...)):
 
     client = openai.OpenAI(
         # This is the default and can be omitted
-        api_key = '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',
+        api_key = os.environ.get("OPENAI_API_KEY"),
     )
     response = client.chat.completions.create(
         model="gpt-3.5-turbo",

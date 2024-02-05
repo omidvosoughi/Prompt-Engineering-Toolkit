@@ -65,7 +65,17 @@ cd ..
 docker-compose up --build
 ```
 
-### 3. Zugriff auf die Anwendung
+### 3. API Schlüsseleinstellung
+
+- Erstellen Sie eine `.env`-Datei im Projektstamm, wenn es keine gibt.
+- Fügen Sie Ihre API-Schlüssel für OpenAI und Together.ai hinzu:
+
+```makefile
+OPENAI_API_KEY=<dein_openai_api_schlüssel>
+TOGETHER_AI_API_KEY=<dein_together_ai_api_schlüssel>
+```
+
+### 4. Zugriff auf die Anwendung
 
 Nachdem die Container gestartet und in Betrieb sind, können Sie über den folgenden Link in Ihrem Webbrowser auf die Anwendung zugreifen.
 

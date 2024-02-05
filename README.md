@@ -57,6 +57,14 @@ sudo docker-compose up --build
 docker-compose up --build
 ```
 
+Wenn es einen Fehler beim Installieren von Frontend-Abhängigkeiten über Docker gibt, verwenden Sie die folgenden Befehle. Stellen Sie sicher, dass vor der Ausführung dieses Befehls Node.js auf Ihrem System installiert sein muss.
+```bash
+cd frontend
+npm install
+cd ..
+docker-compose up --build
+```
+
 ### 3. Zugriff auf die Anwendung
 
 Nachdem die Container gestartet und in Betrieb sind, können Sie über den folgenden Link in Ihrem Webbrowser auf die Anwendung zugreifen.

@@ -81,6 +81,13 @@ Nachdem die Container gestartet und in Betrieb sind, können Sie über den folge
 
 - [http://localhost](http://localhost)
 
+# Ressourcen
+
+- [Prompt Engineering Guide](https://www.promptingguide.ai/)
+- [Hugging Face](https://huggingface.co/)
+- [OpenAI](https://platform.openai.com/docs/overview)
+- [together.ai](https://docs.together.ai/docs/quickstart)
+
 
 
 

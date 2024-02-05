@@ -39,7 +39,7 @@ Um die Anwendung zu starten und auszuführen, folgen Sie diesen Schritten:
 ### 1. Klonen Sie das Repository.
 
 ```bash
-git clone [https://github.com/omidvosoughi/dicom-uploader.git](https://github.com/omidvosoughi/Prompt-Engineering-Toolkit.git)
+git clone https://github.com/omidvosoughi/Prompt-Engineering-Toolkit.git
 cd Prompt-Engineering-Toolkit
 ```
 
@@ -57,7 +57,7 @@ sudo docker-compose up --build
 docker-compose up --build
 ```
 
-Wenn es einen Fehler beim Installieren von Frontend-Abhängigkeiten über Docker gibt, verwenden Sie die folgenden Befehle. Stellen Sie sicher, dass vor der Ausführung dieses Befehls Node.js auf Ihrem System installiert sein muss.
+Wenn es einen Fehler beim Installieren von Frontend-Abhängigkeiten über Docker gibt, verwenden Sie die folgenden Befehle. Stellen Sie sicher, dass vor der Ausführung dieses Befehls [Node.js](https://nodejs.org/en/download) auf Ihrem System installiert sein muss.
 ```bash
 cd frontend
 npm install

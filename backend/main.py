@@ -30,7 +30,7 @@ async def generate(prompt: str = Form(...)):
 
     client = openai.OpenAI(
         # This is the default and can be omitted
-        api_key = os.environ.get("OPENAI_API_KEY"),
+        api_key = os.getenv("OPENAI_API_KEY"),
     )
     response = client.chat.completions.create(
         model="gpt-3.5-turbo",

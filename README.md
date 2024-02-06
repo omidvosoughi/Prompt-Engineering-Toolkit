@@ -43,7 +43,17 @@ git clone https://github.com/omidvosoughi/Prompt-Engineering-Toolkit.git
 cd Prompt-Engineering-Toolkit
 ```
 
-### 2. Mit Docker Compose bauen und ausführen
+### 2. API Schlüsseleinstellung
+
+- Erstellen Sie eine `.env`-Datei im Projektstamm, wenn es keine gibt.
+- Fügen Sie Ihre API-Schlüssel für OpenAI und Together.ai hinzu:
+
+```makefile
+OPENAI_API_KEY=<dein_openai_api_schlüssel>
+TOGETHER_AI_API_KEY=<dein_together_ai_api_schlüssel>
+```
+
+### 3. Mit Docker Compose bauen und ausführen
 
 Verwenden Sie 'docker-compose', um sowohl die Frontend- als auch die Backend-Dienste zu bauen und auszuführen.
 
@@ -63,16 +73,6 @@ cd frontend
 npm install
 cd ..
 docker-compose up --build
-```
-
-### 3. API Schlüsseleinstellung
-
-- Erstellen Sie eine `.env`-Datei im Projektstamm, wenn es keine gibt.
-- Fügen Sie Ihre API-Schlüssel für OpenAI und Together.ai hinzu:
-
-```makefile
-OPENAI_API_KEY=<dein_openai_api_schlüssel>
-TOGETHER_AI_API_KEY=<dein_together_ai_api_schlüssel>
 ```
 
 ### 4. Zugriff auf die Anwendung
